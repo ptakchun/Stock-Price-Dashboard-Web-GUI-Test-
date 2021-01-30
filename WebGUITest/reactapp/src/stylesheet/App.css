@@ -1,0 +1,114 @@
+
+.table{
+  text-align: center;
+}
+
+
+input{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+
+body {
+background: #f6f5f7;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+font-family: 'Montserrat', sans-serif;
+height: auto;
+margin: 20px 0 50px;
+}
+
+h1 {
+font-weight: bold;
+margin-top: 10px;
+}
+
+h2 {
+text-align: center;
+}
+
+p. {
+font-size: 14px;
+font-weight: 100;
+line-height: 20px;
+letter-spacing: 0.5px;
+margin: 20px 0 30px;
+}
+
+
+
+
+button.mainButton {
+border-radius: 20px;
+border: 1px solid #FF4B2B;
+background-color: #FF4B2B;
+color: #FFFFFF;
+font-size: 12px;
+font-weight: bold;
+padding: 12px 45px;
+letter-spacing: 1px;
+text-transform: uppercase;
+transition: transform 80ms ease-in;
+margin-top: 10px;
+
+}
+
+button:active {
+transform: scale(0.95);
+}
+
+button:focus {
+outline: none;
+}
+
+
+form {
+background-color: #FFFFFF;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 0 50px;
+height: 100%;
+text-align: center;
+}
+
+input.textInput {
+background-color: #eee;
+border: none;
+padding: 12px 15px;
+margin: 8px 0;
+width: 100%;
+}
+
+
+.MultiSelectSymbol{
+  margin-bottom: 10px;
+  /* text-overflow: ellipsis;
+    max-width:  90%;
+      white-space: nowrap;
+      overflow: hidden;
+      display: initial; */
+}
+
+/* .MultiSelectSymbol div.dropdown-heading-value{
+  margin-bottom: 10px;
+  position: absolute;
+}
+
+.MultiSelectSymbol span{
+  margin-bottom: 10px;
+  
+  margin-right: 20px;
+  white-space: pre-wrap;
+  
+} */
+
+
+.errorMessage{
+  font-size: 10px;
+  color: red;
+}

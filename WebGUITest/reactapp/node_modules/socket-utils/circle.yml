@@ -1,0 +1,10 @@
+machine:
+  node:
+    version: 0.10.28
+
+test:
+  overrides:
+    - npm install
+    - npm test
+    - npm run cover
+    - npm run circle
