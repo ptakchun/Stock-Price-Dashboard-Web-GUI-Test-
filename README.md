@@ -1,4 +1,4 @@
-# Stock-Price-Dashboard-Web-GUI-Test-
+# Stock-Price-Dashboard
 
 Introduction:
 In my project, I use React.js as the frontend service and Express.js (Node.js) as the backend 
